@@ -7,11 +7,11 @@
   font-family: "Poppins";
 }
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #101010;
-  --text-color: white;
-  --main-color: #ea580c;
-  --linear-gradient: linear-gradient(270deg,#DF8908 10%,#ff1d15 100%);
+  --bg-color: #0a0c0b;          
+  --second-bg-color: #121614;   
+  --text-color: #ffffff;
+  --main-color: #2ecc71;        
+  --linear-gradient: linear-gradient(135deg, #2ecc71 0%, #1b5e20 100%);
 }
 html {
   font-size: 60%;
@@ -111,6 +111,19 @@ section{
 .home-content h3{
   margin: 1rem 0;
   font-size: 4rem;
+  white-space: nowrap; 
+}
+
+#job-title {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 15ch;
+  margin-left: 0.2em;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }
 .home-content p{
   font-size: 1.5rem;
