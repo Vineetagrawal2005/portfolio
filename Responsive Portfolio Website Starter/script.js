@@ -20,8 +20,7 @@ modal.onclick = (e) => {
 const jobTitles = [
   "Frontend Developer",
   "Flutter Developer",
-  "RTL Developer",
-  "Embedded Developer"
+  "3D Product Designer"
 ];
 let jobIndex = 0;
 const jobSpan = document.getElementById('job-title');
